@@ -6,7 +6,7 @@ A makefile designed to build the well-known Boost C++ library to be included in 
 To get started, simply clone this repo, and download the latest Boost library (this project was tested with the latest version of 1.66.0) from the [Boost](http://www.boost.org/users/history/version_1_66_0.html) website.
 
 
-**NOTE**: Boost was not included in this build because the archive is around 85mb compressed, and 683mb uncompressed.
+:warning:**NOTE**: Boost was not included in this build because the archive is around 85mb compressed, and 683mb uncompressed.
 ----
 
 ## Prerequisites
