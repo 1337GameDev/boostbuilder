@@ -12,9 +12,9 @@ To get started, simply clone this repo, and download the latest Boost library (t
 ## Prerequisites
 
 * Make
-* C++ 11 capable compiler (this makefile uses a defined variable to define the compiles as g++)
+* C++ 11 capable compiler (this makefile uses a defined variable to define the compiler as g++)
 * Linux environment (this makefile is built for a linux/mac environment)
-* Boost source (this was latest tested with v1.66.0)
+* Boost source (this was tested with v1.66.0)
 
 ## Usage
 
