@@ -28,5 +28,7 @@ To get started, simply clone this repo, and download the latest Boost library (t
 * ``BOOSTDIR`` : The directory pointing to the folder that was extracted form the Boost archive
 * ``BOOST_VER`` : The version suffix for the boost verison extracted (corresponds to the suffix of the extracted boost folder -- in this example it is "_1_66_0")
 
+:warning:**NOTE**: I am aware that this makefile uses the paradigm of recursive makefiles, which is frowned upon (due to innefficient make use, and long build times), but was unsure how to abstract configurations and such nicely. [Recursive Make Considered Harmful - Peter Miller](http://aegis.sourceforge.net/auug97.pdf)
+
 ## Output
 The output of this build are the .a c++ library files (depicted by the BOOST_LIB_DIR makefile variable) that can be linked with another project during the linking phase of building.
